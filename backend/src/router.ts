@@ -13,7 +13,7 @@ class Router {
             })
         })
 
-        //get all cats
+        //get all meters
         router.get('/meters', cors(), (req: express.Request, res: express.Response) => {
             res.json({
                 Meters
