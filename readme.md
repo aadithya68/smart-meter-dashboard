@@ -6,7 +6,13 @@ If you have a suggestion, or you want to contribute some code, you can make a pu
 
 Your contributions will be visible since this project is public.
 
-## Setup
+## Backend
+
+### Setup
+
+```bash
+cd backend
+```
 
 ```bash
 npm install
