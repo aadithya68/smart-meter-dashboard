@@ -1,4 +1,4 @@
-### MIT License
+# MIT License
 
 Remember, No guarantees, or even fit for a particular purpose.
 
@@ -6,7 +6,7 @@ If you have a suggestion, or you want to contribute some code, you can make a pu
 
 Your contributions will be visible since this project is public.
 
-### Setup
+## Setup
 
 ```bash
 npm install
