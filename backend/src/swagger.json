@@ -47,6 +47,33 @@
                     }
                 }
             }
+        },
+        "/locations": {
+            "get": {
+                "tags": [
+                    "Location"
+                ],
+                "summary": "Get all locations in system",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/Locations"
+                        }
+                    }
+                }
+            },
+            "parameters": [
+                {
+                    "name": "id",
+                    "in": "query",
+                    "description": "location id",
+                    "required": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
         }
     },
     "definitions": {
@@ -59,7 +86,26 @@
         },
         "Meters": {
             "type": "object",
+            "properties": {}
+        },
+        "Locations": {
+            "type": "object",
             "properties": {
+                "locationId": {
+                    "type": "string"
+                },
+                "locationContact": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "phoneNumber": {
+                    "type": "string"
+                },
+                "LocationAddress": {
+                    "type": "string"
+                }
             }
         }
     }
